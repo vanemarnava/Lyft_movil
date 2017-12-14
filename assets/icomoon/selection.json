@@ -1,0 +1,125 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M954.857 323.429c0 14.286-5.714 28.571-16 38.857l-491.429 491.429c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-284.571-284.571c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168.571 374.857-375.429c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "check"
+        ],
+        "grid": 14
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 4,
+        "name": "check",
+        "prevSize": 28,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 7,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M669.143 172l-303.429 303.429 303.429 303.429c14.286 14.286 14.286 37.143 0 51.429l-94.857 94.857c-14.286 14.286-37.143 14.286-51.429 0l-424-424c-14.286-14.286-14.286-37.143 0-51.429l424-424c14.286-14.286 37.143-14.286 51.429 0l94.857 94.857c14.286 14.286 14.286 37.143 0 51.429z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 768,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "chevron-left"
+        ],
+        "grid": 14
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 6,
+        "id": 2,
+        "name": "chevron-left",
+        "prevSize": 28,
+        "code": 59649
+      },
+      "setIdx": 0,
+      "setId": 7,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M149.984 355.808l297.184 285.856v-173.184c90.016 0 319.136 1.984 319.136 237.632 0 123.36-87.488 226.304-203.808 250.112 186.944-25.344 331.488-183.904 331.488-377.792 0-360.192-384.832-363.264-446.816-363.264l-0-147.392-297.184 288.032z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "reply",
+          "arrow",
+          "left",
+          "undo"
+        ],
+        "grid": 32
+      },
+      "attrs": [],
+      "properties": {
+        "id": 256,
+        "order": 5,
+        "prevSize": 32,
+        "code": 59903,
+        "name": "reply"
+      },
+      "setIdx": 5,
+      "setId": 2,
+      "iconIdx": 255
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

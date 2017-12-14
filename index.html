@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- responsive -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>L Y F T</title>
+	<!-- enlace bootstrap -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- enlaces estilos css -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<!-- enlace con jquery -->
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<!-- iconos -->
+	<link rel="stylesheet" href="assets/icomoon/style.css">
+
+	<!-- 	iconos
+		<span class="icon-check"></span>
+		<span class="icon-chevron-left"></span>
+		<span class="icon-reply"></span>			-->
+
+</head>
+<body>
+	
+	<!-- inicio primera pantalla splash -->
+	<div class="container">
+    <div class="row">
+      <div class="col-sm-offset-3 col-sm-6">
+      	<div class="splash">
+        	<img class="whitelogo" src="assets/img/logo-white.png" alt="white logo">
+        </div>
+      </div>
+    </div>
+	</div>  <!-- fin splash -->
+ 
+ <!-- pantalla principal -->
+	<div class="container-fluid firstScreen">
+		<div class="row">
+			<div class="col-xs-12 photo">
+
+				<!-- columna para logo -->
+				<!-- <div class="col-xs-6 col-xs-offset-3">
+					<img class="whiteLogo2" src="assets/img/logo-white.png" alt="whiteLogo2">
+				</div> --> <!-- fin columna para logo -->
+
+				<!-- columna para segundo logo -->
+				<!-- <div class="col-xs-6 col-xs-offset-3">
+					<img class="pinkLog" src="assets/img/logo-pink.png" alt="pinkLogo">
+				</div> --> <!-- fin columna para segundo logo -->
+
+			</div> <!-- fin columna -->
+		</div> <!-- fin fila -->
+		
+		<!-- contenedor para los botones -->
+		<div class="container-fluid botons">
+			<div class="row">
+				<div class="col-xs-offset-1 col-xs-9">
+					<button class=".btn-default .btn-lg logIn" id="btn1">LOG IN</button>
+          <button class=".btn-default .btn-lg signUp" id="btn2">SIGN UP</button>
+				</div> <!-- final col -->
+			</div> <!-- final fila -->
+		</div> <!-- fin contenedor para los botones -->
+	</div> <!-- fin contenedor primera pantalla -->
+
+	<!--segunda pantalla con el sing up y los datos del pais y telefono-->
+	<section class="secondScreen">
+		<div class="container-fluid ">
+			<div class="row">
+				<!-- columna para icono -->
+				<div class="col-xs-offset-0 col-xs-1">
+					<!-- icono para devolverse -->
+					<span class="icon-chevron-left iconBack"></span>
+				</div> <!-- fin col para icono -->	
+
+				<!-- columnas para titulo y parrafo-->
+				<div class="col-xs-10 singCol">
+					<span class="titleSing" >Sing Up</span>
+					<!-- columnas para parrafo -->
+					<div class="col-xs-12 parraCol">
+						<p>Join now for free ride credit</p>
+					</div> <!-- fin columna parrafo -->
+				</div> <!-- fin columna titulo y parrafo -->
+
+			</div> <!-- fin fila -->
+		</div> <!-- fin container -->
+		<hr>
+		<div class="container-fluid ">
+			<div class="row">
+				<!-- columnas para paises -->
+				<div class="col-xs-offset-0 col-xs-4 country">
+					<select id="options" class="form-control input-md">
+						<!-- opciones, la primera esta desactivada --> 
+						<option value="" disabled selected="">Seleccione pais</option>
+					  <option class="argentina" value="argentina">Argentina</option>
+					  <option id="bolivia" value="bolivia">Bolivia</option>
+					  <option class="chile" value="chile">Chile</option>
+					  <option id="peru" value="peru">Peru</option>
+					  <option id="uruguay" value="uruguay">Uruguay</option>
+					</select>
+				</div> <!-- fin columnas paises-->
+				
+				<!-- columnas para telefono -->
+				<div class="col-xs-offset-0 col-xs-6 phone">
+					<!-- input numeros -->
+					<div class="input-group thePhone">
+    				<!-- <span class="input-group-addon" id="basic-addon1">
+      						 </span> -->
+        		<input type="text" id="telephone" maxlength="10" class="form-control" placeholder="Ingrese num celular" aria-describedby="basic-addon1">
+      		</div>
+				</div> <!-- fin columnas para telefono -->
+			</div> <!-- fin fila -->
+		</div> <!-- fin contenedor filtro  -->
+		
+		<div class="container-fluid ">
+			<div class="row">
+				<div class="col-xs-12 parra2">
+					<p class="textoo">We'll send a text to verify your phone</p>
+				</div> <!-- fin columna -->
+			</div> <!-- fin fila -->
+		</div> <!-- fin contenedor -->
+
+		<div class="container-fluid ">
+			<div class="row">
+				<div class="col-xs-12 theNext">
+					<button type="button submit" id='btnNext' disabled='disabled' class="btn btn-md btn-block  btnNext"> N E X T</button>
+				</div> <!-- fin columna -->
+			</div> <!-- fin fila -->
+		</div> <!-- fin contenedor -->
+	</section> <!--fin segunda pantalla con el sing up y los datos del pais y telefono-->
+	
+	<!-- tercera pantalla codigo verificacion -->
+	<section class="thirdScreen">
+		<!-- primer contenmedor para los dos titulos -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 thirdSc">
+					<!-- columna para icono -->
+					<div class="col-xs-offset-0 col-xs-1">
+						<!-- icono para devolverse -->
+						<span class="icon-chevron-left iconBack2"></span>
+					</div> <!-- fin col para icono -->
+
+					<!-- columnas para titulo en parrafo-->
+					<div class="col-xs-10 verCol">
+						<p class="verNumber">Verfy phone number</p>
+					<!-- columnas para parrafo -->
+					<div class="col-xs-12 parraCol">
+						<p class="joinFree">Join now for free ride credit</p>
+					</div> <!-- fin columna parrafo -->
+				</div> <!-- fin columna titulo y parrafo -->
+
+    		</div> <!-- fin columnas -->
+			</div> <!-- fin fila -->	
+		</div> <!-- fin container titulos-->
+		<hr>
+		<!-- columnas para ingeso de codigo -->
+		<div>
+			
+		</div> <!--fin col-->
+
+
+
+	</section><!--fin tercera pantalla codigo verificacion -->
+
+
+	<!-- scripts -->
+	<!-- enlace js -->
+	<script src="assets/js/app.js"></script>
+</body>
+</html>

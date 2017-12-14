@@ -1,0 +1,191 @@
+/*
+* #ed63ac;
+* #ad1283;
+*/
+
+/*estilos generales*/
+*
+{
+	margin: 0;
+  padding: 0;
+}
+
+/*Estilo de la primera pantalla que desaparece*/
+.splash
+{
+	background: #5b0572; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #5b0572 0%, #ad1283 64%, #de47ac 100%); 
+	background: -webkit-linear-gradient(-45deg, #5b0572 0%,#ad1283 64%,#de47ac 100%); 
+	background: linear-gradient(135deg, #5b0572 0%,#ad1283 64%,#de47ac 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b0572', endColorstr='#de47ac',GradientType=1 ); 
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+
+/*Estilo logo blanco primera pantalla*/
+.whitelogo
+{
+	width: 45%;
+  margin-left: 25%;
+  margin-top: 40%;
+}
+
+/*Estilo imagen fondo*/
+.photo
+{
+	background-image: url(../img/car2.png);
+	height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*.whiteLogo2
+{
+	height: 5em;
+}*/
+
+/*.pinkLog
+{
+	height: 5em;
+}*/
+
+/*Estilos botones*/
+.logIn
+{
+	background-color : #31b0d500;
+	border-color: #fff;
+  color: #fff;
+  position: fixed;
+  bottom: -0.1em;
+	padding: 1.5em 3.5em;
+  border-radius: 0.5em;
+  left: 2em;
+  margin-left: 2%;
+  margin-bottom: 2%;  
+}
+
+.signUp
+{
+	background-color : #31b0d500;
+	border-color: #fff;
+  color: #fff;
+  position: fixed;
+  margin-right: 2%;
+	padding: 1.5em 3.5em;
+	bottom: -0.1em;
+  right: 2em;
+  border-radius: 0.5em;
+  position: fixed;
+  margin-bottom: 2%;
+}
+
+/*Estilo general segunda pantalla*/
+.secondScreen
+{
+	margin: 4%;
+	margin-top: 7%;
+}
+
+/*Estilo columna titulo y parrafo*/
+.singCol
+{
+	text-align: center;
+	padding-top: 1%;
+}
+
+/*Estilo icono para devolverse*/
+.iconBack
+{
+	font-size: 3em;
+  cursor: pointer;
+}
+
+/*Estilo titulo*/
+.titleSing
+{
+	font-size: 1.5em;
+	margin: 35%;
+}
+
+.country
+{
+	border-radius: 0.5em;
+	margin-top: 3.5em;
+	border: none;
+	margin: 3em 1.5em 2em 1.5em;
+	padding-left: 0;
+  padding-right: 0;
+}
+
+/*#custom-search-input
+{
+  border: 1px solid green;
+  background-color: #fff;
+}*/
+
+/*#custom-search-input input
+{
+  border: 0;
+  box-shadow: none;
+  border: 1px solid grey;
+  height: 2em;
+}*/
+
+.form-control
+{
+	border: 1px solid #ad1283;
+  background-color: #fff;
+  /*border: 1px solid red;*/
+}
+
+#telephone
+{
+	margin-top: 2.3em;
+}
+
+.form-group input
+{
+  box-shadow: none;
+  border-radius: 0.5em;
+	margin-top: 1.5em;
+	margin: 2em 1.5em;
+}
+
+.textoo
+{
+	margin: 1em;
+	text-align: center;
+}
+
+/*Estilo boton al activarse*/
+.btn-block
+{
+  margin-top: 10%;
+  background-color: #5b0572;
+  color:#fff;
+}
+
+/*Estilo icono para devolverse*/
+.iconBack2
+{
+	font-size: 3em;
+  cursor: pointer;
+}
+
+/*Estilo general tercera pantalla*/
+.thirdScreen
+{
+	margin: 4%;
+	margin-top: 7%;
+}
+
+.verNumber
+{
+
+}
